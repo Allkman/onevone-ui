@@ -1,0 +1,36 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game-dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .game-dropdown-container:first-child {
+    margin-right: 32px;
+  }
+  
+  .game-dropdown-container:last-child {
+    margin-left: 32px;
+  }
+  
+  .game-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  
+  .game-button-container button {
+    margin: 0 8px;
+  }
+  

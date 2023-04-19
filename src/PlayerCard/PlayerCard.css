@@ -1,0 +1,29 @@
+.player-name > p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 20px !important;
+    max-width: 350px;
+    min-height: 450px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.card-inner-border {
+    padding: -5px;
+    border-radius: 10px; /* add rounded corners */
+    border: solid rgb(255, 0, 0) 5px;
+    background: linear-gradient(to bottom, white, rgb(120, 120, 120));
+  }
+  
+  .player-image {
+    max-width: 300px;
+  }
+  
+  .custom-shadow {
+    box-shadow: 0px 2px 15px rgb(23, 64, 139);
+  }
+  
